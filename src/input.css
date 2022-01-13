@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "konnect";
+  src: url("../public/assets/fonts/KonnectRegular.otf");
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
