@@ -1,8 +1,33 @@
 @font-face {
   font-family: "konnect";
   src: url("../public/assets/fonts/KonnectRegular.otf");
+  src: url("../public/assets/fonts/KonnectExtraBoldItalic.otf");
+  src: url("../public/assets/fonts/KonnectHairlineItalic.otf");
+  src: url("../public/assets/fonts/KonnectItalic.otf");
+  src: url("../public/assets/fonts/KonnectLight.otf");
+  src: url("../public/assets/fonts/KonnectLightItalic.otf");
+  src: url("../public/assets/fonts/KonnectMedium.otf");
+  src: url("../public/assets/fonts/KonnectMediumItalic.otf");
+  src: url("../public/assets/fonts/KonnectSemiBold.otf");
+  src: url("../public/assets/fonts/KonnectSemiBoldItalic.otf");
+  src: url("../public/assets/fonts/KonnectThin.otf");
+  src: url("../public/assets/fonts/KonnectThinItalic.otf");
+  src: url("../public/assets/fonts/KonnectBlack.otf");
+  src: url("../public/assets/fonts/KonnectBlackItalic.otf");
+  src: url("../public/assets/fonts/KonnectBold.otf");
+  src: url("../public/assets/fonts/KonnectExtraBold.otf");
+  src: url("../public/assets/fonts/KonnectExtraBoldItalic.otf");
 }
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.border-green-ww {
+  @apply border border-lightGreen-100 hover:bg-lightGreen-200 py-2.5 px-5 rounded-md text-lightGreen-100 hover:text-white transition duration-500 ease-in-out;
+}
+
+.links {
+  @apply font-medium hover:font-bold transition duration-500 ease-in-out;
+}
