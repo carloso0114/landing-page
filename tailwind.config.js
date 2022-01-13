@@ -6,7 +6,8 @@ module.exports = {
         lightGreen: {
           100: '#2BE2A0',
           200:  '#2BE2A9',
-        }
+        },
+        darkBlue:'#00004F',
       },
       fontFamily: {
         'konnect': ['konnect'],

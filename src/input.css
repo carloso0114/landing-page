@@ -17,5 +17,5 @@
 }
 
 .main-title {
-  @apply text-7.5xl
+  @apply text-7.5xl font-bold text-darkBlue;
 }
