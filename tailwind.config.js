@@ -9,7 +9,10 @@ module.exports = {
         }
       },
       fontFamily: {
-        konnect: ['konnect'],
+        'konnect': ['konnect'],
+      },
+      fontSize: {
+        '7.5xl': '5.25rem',
       }
     },
   },
