@@ -12,10 +12,18 @@
   @apply border border-lightGreen-100 hover:bg-lightGreen-200 py-2.5 px-5 rounded-md text-lightGreen-100 hover:text-white transition duration-500 ease-in-out;
 }
 
+.border-green-w2 {
+  @apply bg-lightGreen-100 hover:bg-red-700 py-2.5 px-5 rounded-md text-white hover:text-white transition duration-500 ease-in-out;
+}
+
 .links {
   @apply font-medium hover:font-bold transition duration-500 ease-in-out;
 }
 
 .main-title {
   @apply text-7.5xl font-bold text-darkBlue;
+}
+
+.main-text {
+  @apply text-darkBlue text-lg;
 }
