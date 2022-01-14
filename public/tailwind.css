@@ -936,6 +936,54 @@ Ensure the default browser behavior of the `hidden` attribute.
   left: 210px;
 }
 
+.left-\[\] {
+  left: ;
+}
+
+.left-\[0\] {
+  left: 0;
+}
+
+.left-\[10px\] {
+  left: 10px;
+}
+
+.-left-\[80px\] {
+  left: -80px;
+}
+
+.-left-\[120px\] {
+  left: -120px;
+}
+
+.-left-\[130px\] {
+  left: -130px;
+}
+
+.-left-\[140px\] {
+  left: -140px;
+}
+
+.top-\[90px\] {
+  top: 90px;
+}
+
+.-left-\[125px\] {
+  left: -125px;
+}
+
+.top-\[110px\] {
+  top: 110px;
+}
+
+.right-\[125px\] {
+  right: 125px;
+}
+
+.right-\[25px\] {
+  right: 25px;
+}
+
 .z-0 {
   z-index: 0;
 }
@@ -962,6 +1010,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .z-50 {
   z-index: 50;
+}
+
+.m-16 {
+  margin: 4rem;
 }
 
 .mx-auto {
@@ -1039,6 +1091,39 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: 7rem;
 }
 
+.mx-24 {
+  margin-left: 6rem;
+  margin-right: 6rem;
+}
+
+.mx-16 {
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+.mx-7 {
+  margin-left: 1.75rem;
+  margin-right: 1.75rem;
+}
+
+.mx-9 {
+  margin-left: 2.25rem;
+  margin-right: 2.25rem;
+}
+
+.mx-1 {
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
+
+.ml-16 {
+  margin-left: 4rem;
+}
+
+.mr-16 {
+  margin-right: 4rem;
+}
+
 .block {
   display: block;
 }
@@ -1065,6 +1150,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-28 {
   width: 7rem;
+}
+
+.w-3\/4 {
+  width: 75%;
 }
 
 .rotate-90 {
@@ -1143,6 +1232,15 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-border-opacity: 1;
   border-left-color: rgb(239 68 68 / var(--tw-border-opacity));
   border-right-color: rgb(239 68 68 / var(--tw-border-opacity));
+}
+
+.bg-gradient-to-r {
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+
+.from-indigo-500 {
+  --tw-gradient-from: #6366f1;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(99 102 241 / 0));
 }
 
 .p-6 {
